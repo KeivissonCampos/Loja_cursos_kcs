@@ -1,0 +1,72 @@
+/* Estilo para o header */
+header {
+    z-index: 1000; /* Colocar o header acima do carrossel */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Pequena sombra */
+    position: sticky;
+    top: 0;
+}
+
+/* Texto do carrossel com sombra */
+.text-carousel {
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Ícones personalizados com filtro para inverter cores */
+.custom-white-icon {
+    filter: invert(1); /* Isso inverte as cores, tornando o ícone branco se o fundo for escuro */
+}
+
+/* Estilo de links da barra de navegação */
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+/* Estilo de botão da barra de navegação */
+.btn-navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+/* Ajustes para o botão de navbar em telas maiores */
+@media screen and (min-width: 992px) {
+    .btn-navbar {
+        display: none;
+    }
+}
+
+/* Estilo para a área principal */
+main {
+    background-color: rgba(0, 0, 0, 0.90); /* Fundo preto para a área principal */
+}
+
+/* Ícone do toggler da navbar */
+.navbar-toggler-icon {
+    font-size: 20px;
+}
+
+/* Estilo para imagens do carrossel */
+.carousel-inner img {
+    max-height: 500px; /* Altura máxima para imagens do carrossel */
+    object-fit: cover; /* Cobrir toda a área sem distorção */
+}
+
+/* Estilo para os cards das perguntas frequentes */
+.card-header .btn {
+    width: 100%;
+    text-align: left;
+    background: none;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Ajuste de espaçamento para o accordion */
+#duvidas .accordion{
+    margin: 20px auto; /* Espaçamento vertical e centralização */
+    max-width: 800px; /* Largura máxima do accordion */
+    padding: 0 15px; /* Espaçamento lateral dentro do accordion */
+}
