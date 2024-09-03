@@ -109,7 +109,7 @@
                 </section>
 
                 <section id="produtos">
-                    <h2 class="text-center mt-5 mb-2">Cursos</h2>
+                    <h2 class="text-center mt-5 mb-4">Cursos</h2>
                     <div class="row">
                         <!-- Cada curso como um card -->
                         <div class="col-12 col-md-6 col-lg-4 mb-5">
@@ -156,57 +156,218 @@
                 <section id="emenda-cursos">
                     <div class="container">
                         <div class="row">
-                            <h2 class="section-title text-center">
+                            <h2 class="section-title text-center mb-4">
                                 Confira a emenda dos cursos
                             </h2>
                         </div>
                         <div class="row">
                             <aside class="col-md-3">
                                 <nav class="nav nav-pills flex-column">
-                                    <button type="button" class="nav-link active text-white">Curso de C#</button>
-                                    <button type="button" class="nav-link text-white">Curso de Python</button>
-                                    <button type="button" class="nav-link text-white">Curso de Inteligência Artificial</button>
-                                    <button type="button" class="nav-link text-white">Curso de Arduino</button>
-                                    <button type="button" class="nav-link text-white">Curso de Raspberry Pi</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#curso-c" class="nav-link active text-white">Curso de C#</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#curso-python" class="nav-link text-white">Curso de Python</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#curso-ia" class="nav-link text-white">Curso de Inteligência Artificial</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#curso-arduino" class="nav-link text-white">Curso de Arduino</button>
+                                    <button type="button" data-bs-toggle="tab" data-bs-target="#curso-rpi" class="nav-link text-white">Curso de Raspberry Pi</button>
                                 </nav>
                             </aside>
                             <div class="col-md-9">
                                 <div class="tab-content">
-                                    <div class="tab-pane active">
+
+                                    <div id="curso-c" class="tab-pane active">
                                         <div class="row">
                                             <div class="col-md-3">
-                                                <img class="d-block w-100" src="https://via.placeholder.com//500x500" alt="">
-                                                <h5 class="fw-bold">Módulo 1</h5>
+                                                <img class="d-block w-100" src="img/img-c.jpg" alt="">
+                                                <h5 class="fw-bold">Introdução ao C#</h5>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Aprenda os fundamentos da linguagem C#.
                                                 </p>
                                             </div>
                                             <div class="col-md-3">
-                                                <img class="d-block w-100" src="https://via.placeholder.com//500x500" alt="">
-                                                <h5 class="fw-bold">Módulo 2</h5>
+                                                <img class="d-block w-100" src="img/img-c.jpg" alt="">
+                                                <h5 class="fw-bold">Estruturas de Controle</h5>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Entenda como usar condicionais e loops.
                                                 </p>
                                             </div>
                                             <div class="col-md-3">
-                                                <img class="d-block w-100" src="https://via.placeholder.com//500x500" alt="">
-                                                <h5 class="fw-bold">Módulo 3</h5>
+                                                <img class="d-block w-100" src="img/img-c.jpg" alt="">
+                                                <h5 class="fw-bold">POO</h5>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Explore os conceitos de classes e objetos.
                                                 </p>
                                             </div>
                                             <div class="col-md-3">
-                                                <img class="d-block w-100" src="https://via.placeholder.com//500x500" alt="">
-                                                <h5 class="fw-bold">Módulo 4</h5>
+                                                <img class="d-block w-100" src="img/img-c.jpg" alt="">
+                                                <h5 class="fw-bold">Manipulação de Dados</h5>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Manipule listas e coleções com eficiência.
                                                 </p>
                                             </div>
                                             <div class="col-md-3">
-                                                <img class="d-block w-100" src="https://via.placeholder.com//500x500" alt="">
-                                                <h5 class="fw-bold">Módulo 5</h5>
+                                                <img class="d-block w-100" src="img/img-c.jpg" alt="">
+                                                <h5 class="fw-bold">Trabalhando com APIs</h5>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Conecte-se com APIs para obter dados externos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="curso-python" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-python.png" alt="">
+                                                <h5 class="fw-bold">Fundamentos do Python</h5>
+                                                <p>
+                                                    Introdução básica ao Python e sua sintaxe.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-python.png" alt="">
+                                                <h5 class="fw-bold">Manipulação de Dados</h5>
+                                                <p>
+                                                    Trabalhe com listas, dicionários e arquivos.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-python.png" alt="">
+                                                <h5 class="fw-bold">Python para Web</h5>
+                                                <p>
+                                                    Desenvolva aplicações web com Python.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-python.png" alt="">
+                                                <h5 class="fw-bold">Automação com Python</h5>
+                                                <p>
+                                                    Crie scripts para automatizar tarefas repetitivas.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-python.png" alt="">
+                                                <h5 class="fw-bold">Trabalhando com APIs em Python</h5>
+                                                <p>
+                                                    Conecte e interaja com APIs usando Python.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="curso-ia" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-ia.jpg" alt="">
+                                                <h5 class="fw-bold">Introdução à IA</h5>
+                                                <p>
+                                                    Conceitos básicos e históricos da IA.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-ia.jpg" alt="">
+                                                <h5 class="fw-bold">Aprendizado de Máquina</h5>
+                                                <p>
+                                                    Fundamentos do machine learning e algoritmos.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-ia.jpg" alt="">
+                                                <h5 class="fw-bold">Redes Neurais</h5>
+                                                <p>
+                                                    Explore como funcionam as redes neurais artificiais.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-ia.jpg" alt="">
+                                                <h5 class="fw-bold">PNL/h5>
+                                                <p>
+                                                    Técnicas para análise de texto e linguagem.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-ia.jpg" alt="">
+                                                <h5 class="fw-bold">Visão Computacional</h5>
+                                                <p>
+                                                    Aprenda a ensinar máquinas a ver.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="curso-arduino" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-arduino.jpg" alt="">
+                                                <h5 class="fw-bold">Introdução ao Arduino</h5>
+                                                <p>
+                                                    Comece com os conceitos básicos de Arduino.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-arduino.jpg" alt="">
+                                                <h5 class="fw-bold">Componentes e Circuitos</h5>
+                                                <p>
+                                                    Aprenda a usar sensores e atuadores.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-arduino.jpg" alt="">
+                                                <h5 class="fw-bold">Programação do Arduino</h5>
+                                                <p>
+                                                    Codifique para controlar dispositivos.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-arduino.jpg" alt="">
+                                                <h5 class="fw-bold">Projetos com Arduino</h5>
+                                                <p>
+                                                    Desenvolva pequenos projetos eletrônicos.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-arduino.jpg" alt="">
+                                                <h5 class="fw-bold">Outros Dispositivos</h5>
+                                                <p>
+                                                    Integre o Arduino com outros sistemas.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="curso-rpi" class="tab-pane">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-rpi.jpg" alt="">
+                                                <h5 class="fw-bold">Introdução ao Raspberry Pi</h5>
+                                                <p>
+                                                    Conheça o hardware e possibilidades do Raspberry Pi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-rpi.jpg" alt="">
+                                                <h5 class="fw-bold">Configuração e Instalação</h5>
+                                                <p>
+                                                    Instale e configure o sistema operacional.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-rpi.jpg" alt="">
+                                                <h5 class="fw-bold">IoT com Raspberry Pi</h5>
+                                                <p>
+                                                    Crie projetos para Internet das Coisas.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-rpi.jpg" alt="">
+                                                <h5 class="fw-bold">Python no Raspberry Pi</h5>
+                                                <p>
+                                                    Use Python para programar o Raspberry Pi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="img/img-rpi.jpg" alt="">
+                                                <h5 class="fw-bold">Automação Residencial</h5>
+                                                <p>
+                                                    Automatize tarefas em sua casa com Raspberry Pi.
                                                 </p>
                                             </div>
                                         </div>
@@ -218,7 +379,7 @@
                 </section>
 
                 <section id="duvidas" class="pb-5">
-                    <h2 class="text-center mt-5 mb-2">Perguntas mais frequentes</h2>
+                    <h2 class="text-center mt-5 mb-4">Perguntas mais frequentes</h2>
                     <div class="accordion">
                         <div class="accordion-item">
                             <div class="accordion-header">
