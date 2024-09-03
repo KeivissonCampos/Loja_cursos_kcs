@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"
         defer></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js" defer></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" defer></script>
+    <script src="./js/jquery.mask.min.js" defer></script>
+    <script src="./js/jquery.validate.min.js" defer></script>
+    <script src="./js/messages_pt_BR.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body>
@@ -92,7 +98,7 @@
                         </div>
                         <div class="col-12 col-lg-8 d-flex align-items-center">
                             <p class="h2 text-center text-lg-start">
-                                Conheça os melhores cursos para quem está começando na área de tecnologia.
+                                Conheça os <span class="text-warning">melhores cursos</span> para quem está começando na área de <span class="text-warning">tecnologia</span>.
                             </p>
                         </div>
                     </div>
@@ -102,7 +108,7 @@
                         </div>
                         <div class="col-12 col-lg-8 d-flex align-items-center order-lg-1">
                             <p class="h2 text-center text-lg-start">
-                                Plataforma totalmente compatível com todos os dispositivos.
+                                Plataforma totalmente <span class="text-warning">compatível</span> com todos os dispositivos.
                             </p>
                         </div>
                     </div>
@@ -424,7 +430,37 @@
         </main>
 
         <footer id="contato" class="bg-dark text-white mt-1">
-            <div class="container py-4 text-center">
+            <div class="fale-conosco">
+                <div class="row text-center pt-5">
+                    <h2>Fale Conosco</h2>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-5 pt-3 pb-3 ps-5 pe-5">
+                        <form id="form">
+                            <div>
+                                <label for="nome" class="form-label">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Jhon" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Seu Email:</label>
+                                <input type="email" id="email" class="form-control" placeholder="jhon@exemplo.com" required>
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label">Seu Telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label">Seu Mensagem:</label>
+                                <textarea id="mensagem" class="form-control" placeholder="Gostei muito do curso" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-warning mt-3">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4 text-center border-top mt-3">
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <h4 class="text-warning">Endereço</h4>
@@ -447,7 +483,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="text-center mt-3 border-top pt-3">
+                <div class="text-center mt-3 pt-3">
                     <p>&copy; 2024 Loja Exemplo. Todos os direitos reservados.</p>
                 </div>
             </div>
