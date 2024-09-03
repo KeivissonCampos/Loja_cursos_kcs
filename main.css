@@ -70,3 +70,11 @@ main {
     max-width: 800px; /* Largura máxima do accordion */
     padding: 0 15px; /* Espaçamento lateral dentro do accordion */
 }
+
+.curso-emenda button{
+    color: #fff;
+}
+
+.hover-button:hover{
+    color: rgba(255, 255, 0, 0.8);
+}
