@@ -7,10 +7,9 @@ Bem-vindo ao repositório do projeto **KCS Cursos**! Este projeto é uma página
 - **HTML**: Linguagem de marcação usada para estruturar o conteúdo da página.
 - **CSS**: Estilos básicos adicionados diretamente no HTML para personalização.
 - **Bootstrap**: Framework CSS popular para desenvolvimento web responsivo e moderno.
+- **jQuery**: Biblioteca JavaScript utilizada para simplificar interações com a DOM, eventos e manipulação de elementos.
 
 ## Como Utilizar
-
-Para utilizar o framework Bootstrap e os ícones do Font Awesome neste projeto, siga estas etapas:
 
 ### 1. Configuração do Ambiente
 
@@ -24,11 +23,15 @@ O projeto inclui os seguintes arquivos principais:
 - `bootstrap.min.css`: Arquivo CSS do Bootstrap incluído diretamente do CDN.
 - `bootstrap.min.js`: Bootstrap incluído diretamente do CDN.
 - `main.css`: Arquivo CSS para estilos personalizados (se necessário).
+- `jquery.min.js`: Arquivo da biblioteca jQuery incluído diretamente do CDN.
+- `validation.js`: Arquivo JavaScript para validação de formulários utilizando jQuery.
 
-### 3. Inclusão do Bootstrap
+### 3. Inclusão do Bootstrap e jQuery
 
-O Bootstrap é incluído na página através de um link para o CDN no `<head>` do arquivo HTML. Isso fornece acesso às classes e componentes do Bootstrap para estilizar e organizar o layout da página.
+O Bootstrap e o jQuery são incluídos na página através de links para os respectivos CDNs no `<head>` do arquivo HTML. Isso fornece acesso às classes e componentes do Bootstrap e às funcionalidades do jQuery para manipulação e validação de formulários.
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
